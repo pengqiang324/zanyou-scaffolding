@@ -6,7 +6,7 @@ const process = require("child_process");
 // version 版本号
 // name 新项目名称
 
-program.version("1.0.0")
+program.version("1.0.9")
     .command("create <name>")
     .action((name) => {
         console.log("正在创建项目模板...");
